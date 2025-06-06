@@ -303,10 +303,11 @@
 
             // Pontuação por tier
             const tierScores = {
-                'S': 4,
-                'A+': 3,
-                'A': 2,
-                'B': 1,
+                'S': 5,
+                'A+': 4,
+                'A': 3,
+                'B': 2,
+                'C': 1,
                 '': 0
             };
 
@@ -611,6 +612,7 @@
                     case 'A+': return 'text-orange-500';
                     case 'A': return 'text-yellow-600';
                     case 'B': return 'text-green-600';
+                    case 'C': return 'text-greay-600';
                     default: return 'text-gray-500';
                 }
             }
